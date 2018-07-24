@@ -1,0 +1,21 @@
+{
+  "name": "unitymedia-connect-box-fritz-box-ipv6-prefix-delegation-firewall-fix",
+  "version": "0.1.0",
+  "description": "Hält IPv6-Firewallregeln für das von einer Unitymedia Connect Box einer nachgeschalteten Fritz!Box zugewiesene IPv6-Präfix in der Connect Box aktuell.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node scheduler.js"
+  },
+  "author": {
+    "name": "Stefan Kleeschulte",
+    "url": "http://stefan-kleeschulte.de/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cron": "^1.3.0",
+    "tough-cookie": "^2.4.3",
+    "tr-064": "^0.2.0",
+    "xml2js": "^0.4.19"
+  }
+}
