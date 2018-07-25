@@ -80,13 +80,13 @@ Entwickelt wurde die Lösung für folgendes konkrete Setup:
 - Von den Standardeinstellungen / Werkseinstellungen abweichende Einstellungen in der Connect Box:
   - DHCP: MAC-Adresse der Fritz!Box immer die gleiche IPv4-Adresse zuweisen.
   - IP und Port Filter:
-    - Eingehend:
+    - Folgende Regel für eingehenden Traffic hinzugefügt:
       - Aktiviert
       - Traffic policy: Ja
       - Protokoll: Alle
       - Quell IP-Adresse: Alle
       - Ziel IP Adresse: Single - [IPv6 Adresse der Fritz!Box (nicht das Präfix!)]
-    - Ausgehend:
+    - Folgende Regel für ausgehenden Traffic hinzugefügt:
       - Aktiviert
       - Traffic policy: Ja
       - Protokoll: Alle
