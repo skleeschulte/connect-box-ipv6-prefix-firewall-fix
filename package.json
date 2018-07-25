@@ -1,6 +1,6 @@
 {
   "name": "connect-box-ipv6-prefix-firewall-fix",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hält IPv6-Firewallregeln für das von einer Unitymedia Connect Box einer nachgeschalteten Fritz!Box zugewiesene IPv6-Präfix in der Connect Box aktuell.",
   "repository": {
     "type" : "git",
