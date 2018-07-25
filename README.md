@@ -55,6 +55,9 @@ Mindestens muss `CONNECT_BOX_PASSWORD` gesetzt werden.
 Einfach [das vorgefertigte Docker Image](https://hub.docker.com/r/skleeschulte/connect-box-ipv6-prefix-firewall-fix/)
 installieren und über Umgebungsvariablen anpassen.
 
+Der Docker-Container muss über das Netzwerk auf Fritz!Box und Connect Box zugreifen können. Ggf. muss daher `bridged`
+Networking verwendet werden (und nicht NAT).
+
 ## Verwendung mit Node.js
 
     git clone https://github.com/skleeschulte/connect-box-ipv6-prefix-firewall-fix.git
